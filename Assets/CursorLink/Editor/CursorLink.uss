@@ -1,0 +1,139 @@
+.scroll-view {
+    flex-grow: 1;
+}
+
+.main-container {
+    padding: 16px;
+    background-color: #2D2D2D;
+    min-width: 300px;
+}
+
+.header-label {
+    font-size: 24px;
+    -unity-font-style: bold;
+    color: #E0E0E0;
+    margin-bottom: 8px;
+}
+
+.description-label {
+    font-size: 14px;
+    color: #B0B0B0;
+    margin-bottom: 16px;
+    white-space: normal;
+}
+
+.toggle-container {
+    background-color: #383838;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.custom-toggle {
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    cursor: link;
+    transition: all 0.3s ease;
+}
+
+.custom-toggle:last-child {
+    margin-bottom: 0;
+}
+
+.custom-toggle__label {
+    color: #E0E0E0;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.error-toggle {
+    background-color: rgba(244, 67, 54, 0.2);
+}
+
+.error-toggle--on {
+    background-color: #F44336;
+}
+
+.error-toggle--on .custom-toggle__label {
+    color: #FFFFFF;
+}
+
+.warning-toggle {
+    background-color: rgba(255, 193, 7, 0.2);
+}
+
+.warning-toggle--on {
+    background-color: #FFC107;
+}
+
+.warning-toggle--on .custom-toggle__label {
+    color: #000000;
+}
+
+.log-toggle {
+    background-color: rgba(33, 150, 243, 0.2);
+}
+
+.log-toggle--on {
+    background-color: #2196F3;
+}
+
+.log-toggle--on .custom-toggle__label {
+    color: #FFFFFF;
+}
+
+.action-button {
+    height: 40px;
+    font-size: 16px;
+    -unity-font-style: bold;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+    padding: 0 16px;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+}
+
+.action-button:hover {
+    background-color: #45a049;
+    scale: 1.05;
+}
+
+.action-button:active {
+    background-color: #3d8b40;
+    scale: 0.95;
+}
+
+.action-button.success {
+    background-color: #2196F3;
+    transition: all 0.3s ease;
+}
+
+.action-button.success .button-text {
+    display: none;
+}
+
+.action-button.success .success-text {
+    display: flex;
+}
+
+.button-text, .success-text {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-text {
+    display: none;
+}
+
+.success-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-image: url('project:///Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconok.png');
+    -unity-background-scale-mode: scale-to-fit;
+}
