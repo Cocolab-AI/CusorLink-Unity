@@ -1,12 +1,12 @@
 # CursorLink-Unity
 
-CursorLink is a powerful Unity Editor plugin that augments cursor-Unity development workflows by seamlessly integrating Unity's console output into your project context using Markdown. Easily export, view, and manage console logs with intuitive controls and visual feedback.
+CursorLink is a powerful Unity Editor plugin that augments Unity development workflows in Cursor by seamlessly integrating the console output into your project context in Markdown. Easily export, view, and manage console logs with intuitive controls and visual feedback.
 
 ![CursorLink Overview](https://github.com/user-attachments/assets/c70d36c7-1639-411a-bcab-974cd24d6468)
 
 ## Features
 
-- **Real-Time Log Monitoring**: Automatically captures and displays Unity console logs, including errors, warnings, and regular logs.
+- **Real-Time Log Monitoring**: Automatically captures and displays Unity console logs updates so they can be fed into an LLM's context.
 - **Markdown Export**: Easily export console logs to a Markdown file for documentation or sharing purposes.
 - **Clipboard Integration**: Copy logs directly to your clipboard with a single click.
 - **Customizable Log Filters**: Toggle the inclusion of errors, warnings, and logs to focus on relevant information.
@@ -21,4 +21,4 @@ CursorLink is a powerful Unity Editor plugin that augments cursor-Unity developm
 
 ## Unity Version Compatibility
 
-This plugin was developed on the Unity 6 preview and requires the Editor Coroutines package.
+This plugin was developed for the Unity 6 preview and requires the Editor Coroutines package, but will likely work on older versions of Unity too.
